@@ -478,14 +478,16 @@ section {
   text-transform: uppercase;
   color: #aaaaaa;
   font-family: "Poppins", sans-serif;
+  
 }
 .section-title h2::after {
   content: "";
-  width: 120px;
-  height: 1px;
+  width: 120px;  
+  height: 5px;
   display: inline-block;
-  background: #ffde9e;
+  background: #ffde9e; 
   margin: 4px 10px;
+  
 }
 .section-title p {
   margin: 0;
