@@ -1078,6 +1078,23 @@ section {
   background-size: cover;
   min-height: 400px;
 }
+.get-started-btn4 {
+  color: rgb(12, 12, 12);
+  border-radius: 4px;
+  padding: 7px 25px 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  
+  background-color: #F7FD04;
+  float:left;
+ 
+  
+}
+.get-started-btn4:hover {
+  background: #0241ad; 
+   color: #343a40;
+}
 @media (max-width: 991px) {
   .counts .image {
     text-align: center;
