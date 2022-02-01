@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 #  Get Startet Button
 --------------------------------------------------------------*/
 .get-started-btn {
-  color: #F7FD04;
+  color: black;
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
   white-space: nowrap;
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #F7FD04;
 }
 .get-started-btn1 {
-  color: #fff;
+  color: black;
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
   white-space: nowrap;
@@ -169,6 +169,21 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #F7FD04;
   
 }
+.get-started-btn3 {
+  color: rgb(12, 12, 12);
+  border-radius: 4px;
+  padding: 7px 25px 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  background-color: #F7FD04;
+  
+}
+.get-started-btn3:hover {
+  background: #0241ad; 
+   color: #343a40;
+}
 .get-started-btn:hover {
    background: #F7FD04; 
     color: #343a40;
@@ -176,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 .get-started-btn1:hover {
   background: transparent;
   color: #343a40;
-  border: 2px solid green;
+  border: 2px solid #F7FD04;
 }
 @media (max-width: 992px) {
   .get-started-btn {
@@ -223,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #ffc900;
+  color: #F7FD04;
 }
 .navbar .dropdown ul {
   display: block;
@@ -253,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  background-color: #ffc900;
+  background-color: #F7FD04;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -337,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #151515;
-  background-color: #ffc451;
+  background-color: #F7FD04;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -364,7 +379,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  background-color: #ffc451;
+  background-color: #F7FD04;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -418,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #hero h1 span {
- color: #ffc900;   
+ color: #F7FD04;   
    
    
 }
@@ -441,7 +456,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #ffc451;
+  color: #F7FD04;
 }
 #hero .icon-box h3 {
   font-weight: 700;
@@ -511,7 +526,7 @@ section {
   width: 120px;  
   height: 5px;
   display: inline-block;
-  background: #ffde9e; 
+  background: #F7FD04; 
   margin: 4px 10px;
   
 }
@@ -631,12 +646,15 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  background-color: #edf6ff;
+}
 .services .icon-box {
   text-align: center;
   border: 1px solid #ebebeb;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: rgb(224, 218, 218);
+  background: #edf6ff;
 }
 .services .card{
   display: grid;
@@ -655,18 +673,61 @@ section {
 
 }
 .card-image {
-  grid-area: image;
-  background: url("../img/hero-bg.jpg");
+  /* grid-area: image; */
+  background: url("../img/webapp.jpg");
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
   background-size: cover;
+  align-items: center;
+}
+.card-image2 {
+  /* grid-area: image; */
+  background: url("../img/website.jpg");
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-size: cover;
+  align-items: center;
+}
+
+.card-image3 {
+  /* grid-area: image; */
+  background: url("../img/desktop.jpg");
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-size: cover;
+  align-items: center;
+}
+.card-image4 {
+  /* grid-area: image; */
+  background: url("../img/mobileapps.jpg");
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-size: cover;
+  align-items: center;
+}
+.card-image5 {
+  /* grid-area: image; */
+  background: url("../img/ecommerce.jpg");
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-size: cover;
+  align-items: center;
+}
+.card-image6 {
+  /* grid-area: image; */
+  background: url("../img/logo.jpg");
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-size: cover;
+  align-items: center;
 }
 .card-text{
   grid-area: text;
   margin:25px;
+  
 }
 .card-text .date{
-  color:rgb(255,7,110);
+  color:#0241ad;
   font-size: 13px;
 }
 .card-text p{
@@ -764,7 +825,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(52, 51, 73, 0.5), rgba(38, 31, 77, 0.363)), url("../img/passion.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
