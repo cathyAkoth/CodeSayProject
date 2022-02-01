@@ -1074,7 +1074,7 @@ section {
   color: #626262;
 }
 .counts .image {
-  background: url("../img/counts-img.jpg") center center no-repeat;
+  background:linear-gradient(rgba(37, 5, 216, 0.692),rgba(30, 30, 31, 0.692)), url("../img/happyclient.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
