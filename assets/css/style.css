@@ -826,6 +826,12 @@ section {
   font-size: 28px;
   font-weight: 700;
 }
+.cta .text-center1 h3 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
 .cta h4{
   color: #fff;
 }
