@@ -1078,7 +1078,7 @@
     align-items: center;
   }
   .pricing ul i {
-    color: var(--color-primary);
+    color:#f7fd04;
     font-size: 36px;
     padding-right: 3px;
     line-height: 0;
