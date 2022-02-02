@@ -859,15 +859,18 @@
   .onfocus {
     padding: 0;
   }
+  .onfocus .fst-italic{
+      color: #f7fd04;
+  }
   .onfocus .video-play {
     min-height: 400px;
-    background: linear-gradient(rgba(18, 18, 19, 0.692),rgba(39, 39, 138, 0.692)), url("../img/onfocus-video-bg.jpg") center center;
+    background: linear-gradient(rgba(45, 45, 48, 0.692),rgba(42, 42, 46, 0.692)), url("../img/onfocus-video-bg.jpg") center center; 
     background-size: cover;
   }
   .onfocus .content {
-    background: linear-gradient(rgba(18, 18, 19, 0.692),rgba(39, 39, 138, 0.692)), url("../img/onfocus-content-bg.jpg") center center;
+    background: linear-gradient(rgba(65, 65, 88, 0.692),rgba(95, 95, 226, 0.692)), url("../img/onfocus-content-bg.jpg") center center;
     background-size: cover;
-    color: red;
+    color: white;
     padding: 40px;
   }
   @media (min-width: 768px) {
@@ -878,7 +881,7 @@
   .onfocus .content h3 {
     font-weight: 600;
     font-size: 32px;
-    color: red;
+    color: white;
   }
   .onfocus .content ul {
     list-style: none;
@@ -890,13 +893,13 @@
   .onfocus .content ul i {
     font-size: 20px;
     padding-right: 4px;
-    color: blue;
+    color: #f7fd04;
   }
   .onfocus .content p:last-child {
     margin-bottom: 0;
   }
   .onfocus .content .read-more {
-    font-family: green;
+    font-family: yellow;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
@@ -906,8 +909,10 @@
     display: -nline-flex;
     align-items: center;
     justify-content: center;
-    color: red;
-    background: blue;
+    color: #fff;
+    
+    border:2px solid #f7fd04;
+
   }
   .onfocus .content .read-more i {
     font-size: 18px;
@@ -916,7 +921,7 @@
     transition: 0.3s;
   }
   .onfocus .content .read-more:hover {
-    background: red;
+    background: #f7fd04;
     padding-right: 19px;
   }
   .onfocus .content .read-more:hover i {
@@ -925,7 +930,7 @@
   .onfocus .play-btn {
     width: 94px;
     height: 94px;
-    background: linear-gradient(rgba(236, 236, 136, 0.692),rgba(39, 39, 138, 0.692));
+    background: rgb(51, 50, 50);
     border-radius: 50%;
     display: block;
     position: absolute;
@@ -950,10 +955,10 @@
     animation-timing-function: steps;
     opacity: 1;
     border-radius: 50%;
-    border: 5px solid rgba(var(--color-primary-rgb), 0.7);
+    border: 5px solid rgb(87, 87, 71);
     top: -15%;
     left: -15%;
-    background: lightgreen;
+    background: rgb(51, 50, 50);
   }
   .onfocus .play-btn:after {
     content: "";
@@ -965,7 +970,7 @@
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 15px solid var(--color-white);
+    border-left: 15px solid #f7fd04;
     z-index: 100;
     transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
@@ -980,14 +985,14 @@
     border: none;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 15px solid var(--color-white);
+    border-left: 15px solid #0241ad;
     z-index: 200;
     -webkit-animation: none;
     animation: none;
     border-radius: 0;
   }
   .onfocus .play-btn:hover:after {
-    border-left: 15px solid var(--color-primary);
+    border-left: 15px solid rgb(51, 50, 50);;
     transform: scale(20);
   }
   
