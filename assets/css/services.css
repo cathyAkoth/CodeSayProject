@@ -546,17 +546,17 @@
   /*--------------------------------------------------------------
   # Call To Action Section
   --------------------------------------------------------------*/
-  .cta {
+  .cta1 {
     padding: 0;
     margin-bottom: 60px;
   }
-  .cta .container {
+  .cta1 .container {
     padding: 80px;
-    background: rgba(var(--color-secondary-rgb), 0.1);
+    background: red;
     border-radius: 15px;
   }
   @media (max-width: 992px) {
-    .cta .container {
+    .cta1 .container {
       padding: 60px;
     }
   }
