@@ -1151,11 +1151,12 @@
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 400px;
+    
   }
   .faq .accordion-item {
     border: 0;
     margin-top: 15px;
-    box-shadow: 0px 5px 25px 0px rgba(var(--color-black-rgb), 0.06);
+    box-shadow: 0px 5px 25px 0px #2b70e7;
   }
   .faq .accordion-collapse {
     border: 0;
