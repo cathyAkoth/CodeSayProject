@@ -598,6 +598,21 @@
   .cta1 .content .cta-btn:hover {
     background: #f7fd04;
   }
+  .about1 .cta-btn {
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: solid 2px #f7fd04;
+
+  }
+  .about1 .cta-btn:hover {
+    background: #f7fd04;
+  }
   .cta .img {
     position: relative;
   }
