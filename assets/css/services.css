@@ -319,6 +319,21 @@
     opacity: 1;
     background: var(--color-primary);
   }
+  #heroe .text-center1 {
+    color: rgb(22, 21, 21);
+    text-align: center;
+  }
+  #heroe .text-center1 p{
+    color: rgb(22, 21, 21);
+    text-align: center;
+  }
+  .text-center1 .btn-get-started{
+    border: 2px solid #f7fd04;
+  }
+  .text-center1 .btn-get-started:hover {
+    background: #f7fd04;
+    color: var(--color-white);
+  }
   
   @-webkit-keyframes fadeIn {
     from {
