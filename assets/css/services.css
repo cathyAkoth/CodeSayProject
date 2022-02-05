@@ -888,6 +888,14 @@
   .features .tab-pane p:last-child {
     margin-bottom: 0;
   }
+  .features .btn-get-started{
+    border: 2px solid #f7fd04;
+    letter-spacing: 1px;
+    padding: 12px 24px;
+  }
+  .features .btn-get-started:hover{
+    background-color: #f7fd04;
+  }
   
   @keyframes fadeIn {
     0% {
