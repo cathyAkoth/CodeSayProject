@@ -10,6 +10,15 @@
     background: #edf6ff;
     display: flex;
     align-items: center;
-    justify-content:column;
-    display: column;
+    justify-content:center;
+    
+}
+form{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width:90%;
+    max-width: 600px;
+    border-radius: 10px;
 }
